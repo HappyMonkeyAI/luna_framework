@@ -1,3 +1,26 @@
-fixtures/
+# Nested evaluation fixture repos + heavy local state
+# (nested .git, node_modules, disposable worktrees). Track only diff-tests.
+fixtures/*
+!fixtures/diff-tests/
+!fixtures/diff-tests/**
+
+# Local scratch / temp
 *.tmp
 _scratch/
+.agent/
+
+# Draft site content (publish separately)
+ARTICLE.md
+
+# Future root-level run debris (historical evidence already tracked stays)
+/*.jsonl
+/*.err
+/*.meta
+/*-final.md
+/*-parent-*.json
+/*-result-*.json
+/*-baseline-*.json
+/*-audit-*.md
+/*-audit-*.log
+/*-audit-*.txt
+/*-diff.json

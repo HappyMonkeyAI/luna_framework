@@ -1,11 +1,12 @@
 # Projects and Links
 
-## Local workspaces
+## Related repositories
 
-| Project | Local path | Purpose | Repository |
-|---|---|---|---|
-| Luna framework | `C:\Users\steph\Documents\development\luna_framework` | Workspace for Luna worker evaluations, reports, and future framework tooling. | — |
-| Echoes of Aion | `C:\Users\steph\Documents\development\EchoesOfAion` | The repository used for the bounded Luna Phase 3 diplomacy evaluation. | https://github.com/SPhillips1337/EchoesOfAion |
+| Project | Purpose | Repository |
+|---|---|---|
+| Luna framework | Workspace for Luna worker evaluations, reports, and framework tooling. | https://github.com/SPhillips1337/luna_framework |
+| Echoes of Aion | Mature-project operational pilot and earlier diplomacy evaluation target. | https://github.com/SPhillips1337/EchoesOfAion |
+| HappyMonkeyAI | Organization attribution for this work. | https://github.com/HappyMonkeyAI |
 
 ## Explicitly referenced documentation and protocols
 
@@ -39,12 +40,11 @@ These projects were identified as examples of the emerging repository-intelligen
 
 | Artifact | Path / link | Context |
 |---|---|---|
-| Luna worker evaluation report | `C:\Users\steph\Documents\development\luna_framework\luna-worker-evaluation-report.md` | Report on the `gpt-5.6-luna` / `openai-codex` bounded worker evaluation. |
-| Accepted-peace regression test | `C:\Users\steph\Documents\development\EchoesOfAion\packages\server\tests\turn-resolution\turn-pipeline.test.ts` | Test added during the evaluation. |
-| Echoes of Aion playtest URL | http://localhost:3333 | Local runtime URL documented by the repository. |
-| Luna/Terra pilot evaluation ledger | `C:\Users\steph\Documents\development\EchoesOfAion\.agent\evaluations\2026-09-luna-terra-pilot.md` | Primary record of the bounded model-routing evaluations and their evidence. |
-| Agent-legible architecture pilot plan | `C:\Users\steph\Documents\development\EchoesOfAion\.hermes\plans\2026-09-16_140000-agent-legible-architecture-pilot.md` | Design and implementation plan for the repository support layer. |
-| Luna/Terra evaluation task packets | `C:\Users\steph\Documents\development\EchoesOfAion\.agent\tasks\` | Individual bounded task objectives, constraints, acceptance criteria, and handoffs. |
+| Luna worker evaluation report | [`luna-worker-evaluation-report.md`](luna-worker-evaluation-report.md) | Report on the `gpt-5.6-luna` / `openai-codex` bounded worker evaluation. |
+| Accepted-peace regression test | `EchoesOfAion/packages/server/tests/turn-resolution/turn-pipeline.test.ts` | Test added during the evaluation (in Echoes of Aion). |
+| Luna/Terra pilot evaluation ledger | `EchoesOfAion/.agent/evaluations/2026-09-luna-terra-pilot.md` | Primary record of the bounded model-routing evaluations and their evidence. |
+| Agent-legible architecture pilot plan | `EchoesOfAion/.hermes/plans/2026-09-16_140000-agent-legible-architecture-pilot.md` | Design and implementation plan for the repository support layer. |
+| Luna/Terra evaluation task packets | `EchoesOfAion/.agent/tasks/` | Individual bounded task objectives, constraints, acceptance criteria, and handoffs. |
 
 ## Route details
 
@@ -54,4 +54,4 @@ These projects were identified as examples of the emerging repository-intelligen
 
 ## Maintenance
 
-Add new projects or references as they are explicitly introduced. Keep local paths and external URLs separate, and note whether a link is authoritative documentation, a protocol, a repository, or an evaluation artifact.
+Add new projects or references as they are explicitly introduced. Prefer public repository URLs over machine-local paths.

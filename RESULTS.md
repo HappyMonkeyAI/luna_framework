@@ -9,12 +9,12 @@
 ## Echoes of Aion Luna/Terra pilot
 
 - Status: **Exploratory**
-- Repository: `C:\Users\steph\Documents\development\EchoesOfAion`
+- Repository: [Echoes of Aion](https://github.com/SPhillips1337/EchoesOfAion)
 - Branch: `feature/aion-phase3`
 - Pilot area: diplomacy and turn-resolution boundary
-- Evaluation ledger: `C:\Users\steph\Documents\development\EchoesOfAion\.agent\evaluations\2026-09-luna-terra-pilot.md`
-- Task packets: `C:\Users\steph\Documents\development\EchoesOfAion\.agent\tasks\`
-- Architecture plan: `C:\Users\steph\Documents\development\EchoesOfAion\.hermes\plans\2026-09-16_140000-agent-legible-architecture-pilot.md`
+- Evaluation ledger: `EchoesOfAion/.agent/evaluations/2026-09-luna-terra-pilot.md`
+- Task packets: `EchoesOfAion/.agent/tasks/`
+- Architecture plan: `EchoesOfAion/.hermes/plans/2026-09-16_140000-agent-legible-architecture-pilot.md`
 - Comparison status: **Not comparable**
 
 ### Recorded datapoints
@@ -33,7 +33,7 @@ The pilot supports only a tentative routing hypothesis: Luna is promising for ti
 
 ## Controlled fixture preparation
 
-- Fixture: `C:\Users\steph\Documents\development\luna_framework\fixtures\routing-benchmark-ts`
+- Fixture: `fixtures/routing-benchmark-ts` (local nested repo; not published in this snapshot)
 - Initial intentionally failing code commit: `44d136f2b0a9332f215cc5c7a2265090ea01506a`
 - B1 baseline tag: `benchmark-b1-baseline` → `361fb242ca3eedc0ac2f869dc12c6ddbd4f3f212`
 - B2 baseline tag: `benchmark-b2-baseline` → `5d600a591c00cc06a23863a26dfbdf6413d6074b`

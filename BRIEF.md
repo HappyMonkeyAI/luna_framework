@@ -34,11 +34,11 @@ The framework concept was developed in stages:
 
 The primary evaluation ledger is:
 
-`C:\Users\steph\Documents\development\EchoesOfAion\.agent\evaluations\2026-09-luna-terra-pilot.md`
+`EchoesOfAion/.agent/evaluations/2026-09-luna-terra-pilot.md` (in the [Echoes of Aion](https://github.com/SPhillips1337/EchoesOfAion) repository)
 
 The implementation plan is:
 
-`C:\Users\steph\Documents\development\EchoesOfAion\.hermes\plans\2026-09-16_140000-agent-legible-architecture-pilot.md`
+`EchoesOfAion/.hermes/plans/2026-09-16_140000-agent-legible-architecture-pilot.md`
 
 The Echoes of Aion pilot remains exploratory and does not claim a statistically valid model comparison. The framework then created a canonical TypeScript routing fixture and executed three controlled task classes:
 

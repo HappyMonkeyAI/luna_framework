@@ -8,7 +8,7 @@ This evaluation used Luna as an explicitly routed worker for a bounded Echoes of
 
 Repository:
 
-`C:/Users/steph/Documents/development/EchoesOfAion`
+[Echoes of Aion](https://github.com/SPhillips1337/EchoesOfAion)
 
 Branch:
 

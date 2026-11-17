@@ -2,8 +2,8 @@ Completed combat extraction.
 
 Files changed:
 
-- [src/main.ts](C:\Users\steph\Documents\development\luna_framework\fixtures\fixture-runs\b4a2-terra\src\main.ts)
-- [src/systems/combat-system.ts](C:\Users\steph\Documents\development\luna_framework\fixtures\fixture-runs\b4a2-terra\src\systems\combat-system.ts)
+- `src/main.ts` (worktree `fixtures/fixture-runs/b4a2-terra`, local)
+- `src/systems/combat-system.ts` (worktree `fixtures/fixture-runs/b4a2-terra`, local)
 
 Coupling traps:
 
