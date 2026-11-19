@@ -66,6 +66,7 @@ A win for Track A is **not** maximum character compression. It is:
 - `labs/glyph/BRIEF.md` — this document
 - `labs/glyph/EVALUATION-PROTOCOL.md` — Track A matched protocol
 - `labs/glyph/GLOSSARY.md` — codec vocabulary and type-key sketch
+- `labs/glyph/LINKS.md` — discovery landscape (steal / avoid / cite)
 - Parent: Luna `BRIEF.md`, `EVALUATION-PROTOCOL.md`, `RESULTS.md` for shared discipline
 
 ## Next decision
