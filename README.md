@@ -54,7 +54,12 @@ To reproduce matched runs you need the fixture repos locally (same baseline tags
 
 ## Sister lab: Glyph
 
-[`labs/glyph/`](labs/glyph/) — **agent-facing code encoding** (typed short identifiers + legend), not model routing. Track A matched protocol is registered; no runs yet. Start at [`labs/glyph/BRIEF.md`](labs/glyph/BRIEF.md).
+[`labs/glyph/`](labs/glyph/) — **agent-facing code encoding** (typed short identifiers + legend), not model routing. Codec v0 + W1 harness are ready; worker matched runs not started. Start at [`labs/glyph/BRIEF.md`](labs/glyph/BRIEF.md).
+
+```text
+python labs/glyph/test_codec.py
+python labs/glyph/w1_harness.py encode --root <dir> --path src/domain/email.ts
+```
 
 ## Related HappyMonkeyAI work
 

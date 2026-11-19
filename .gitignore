@@ -8,6 +8,8 @@ fixtures/*
 *.tmp
 _scratch/
 .agent/
+__pycache__/
+*.py[cod]
 
 # Draft site content (publish separately)
 ARTICLE.md

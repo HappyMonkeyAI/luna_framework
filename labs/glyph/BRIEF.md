@@ -70,4 +70,13 @@ A win for Track A is **not** maximum character compression. It is:
 
 ## Next decision
 
-Register Track A as exploratory. Implement a minimal reversible rename codec + legend against an existing Luna fixture packet (prefer B1-class: single-file, clear acceptance). Run one matched pair: **raw source** vs **Glyph-encoded source + legend**, same small-model route, independent verification. Record in a Glyph section of results (or a dedicated `labs/glyph/RESULTS.md`) without touching frozen Luna B4 claims.
+Codec v0 + W1 harness are in-tree (`codec.py`, `w1_harness.py`, tests). **Next:** run one matched worker pair — **raw** vs **Glyph-encoded + legend** — on B1 (`src/domain/email.ts`), same small-model route, decode-then-verify on the Glyph arm. Record under `labs/glyph/RESULTS.md` as Exploratory; do not touch frozen Luna B4 claims.
+
+### Harness quickref
+
+```text
+python labs/glyph/w1_harness.py encode --root <worktree> --path src/domain/email.ts
+# worker edits Glyph sources using LEGEND.md + GLYPH-RULES.md
+python labs/glyph/w1_harness.py decode --root <worktree>
+# then run fixture tests / typecheck on decoded human source
+```
