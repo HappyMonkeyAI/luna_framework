@@ -52,6 +52,10 @@ What *is* tracked for differential oracles:
 
 To reproduce matched runs you need the fixture repos locally (same baseline tags recorded in `RESULTS.md`). Publishing those fixtures as standalone public repos is optional follow-up work.
 
+## Sister lab: Glyph
+
+[`labs/glyph/`](labs/glyph/) — **agent-facing code encoding** (typed short identifiers + legend), not model routing. Track A matched protocol is registered; no runs yet. Start at [`labs/glyph/BRIEF.md`](labs/glyph/BRIEF.md).
+
 ## Related HappyMonkeyAI work
 
 - [AgentsProtocol](https://github.com/HappyMonkeyAI/AgentsProtocol) — agent operating protocol used alongside this discipline

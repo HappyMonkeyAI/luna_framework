@@ -5,6 +5,7 @@
 | Project | Purpose | Repository |
 |---|---|---|
 | Luna framework | Workspace for Luna worker evaluations, reports, and framework tooling. | https://github.com/SPhillips1337/luna_framework |
+| Glyph lab (in-repo) | Sister investigation: agent-facing code encoding / naming codec. | [`labs/glyph/`](labs/glyph/) |
 | Echoes of Aion | Mature-project operational pilot and earlier diplomacy evaluation target. | https://github.com/SPhillips1337/EchoesOfAion |
 | HappyMonkeyAI | Organization attribution for this work. | https://github.com/HappyMonkeyAI |
 
