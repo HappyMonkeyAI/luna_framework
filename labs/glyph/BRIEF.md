@@ -71,7 +71,7 @@ A win for Track A is **not** maximum character compression. It is:
 
 ## Next decision
 
-Codec v0 + W1 harness are in-tree (`codec.py`, `w1_harness.py`, tests). **Next:** run one matched worker pair — **raw** vs **Glyph-encoded + legend** — on B1 (`src/domain/email.ts`), same small-model route, decode-then-verify on the Glyph arm. Record under `labs/glyph/RESULTS.md` as Exploratory; do not touch frozen Luna B4 claims.
+G-A0 exploratory pair complete (`qwen-code:qwen3.8-max`, Raw→Glyph): both passed independent verify; Glyph W1 decode preserved the fix. See `RESULTS.md`. **Next (optional):** n>1 / randomized order, or Codex Luna-class retry when quota allows.
 
 ### Harness quickref
 

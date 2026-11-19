@@ -1,0 +1,54 @@
+# G-A0 Glyph — B1 single-file regression (codec arm)
+
+## Protocol
+
+- Glyph lab Track A matched evaluation G-A0
+- Arm: **Glyph** (typed short identifiers + legend; W1 writeback)
+- Route: same small-model route as Raw arm (explicit capture required)
+- Baseline: `benchmark-b1-stab` → `a92eb1dd18b158b8c2670ac70f68dcca08faec00` then Glyph-encoded
+
+## Objective
+
+Fix the email normalization regression so the owned public function returns a trimmed, lowercase email address.
+
+Identifiers in owned source are **Glyph-encoded**. Consult `LEGEND.md` and `GLYPH-RULES.md`. Edit the Glyph form (e.g. function `g7a`, parameter `g2b`); do not invent human identifier spellings in the owned file.
+
+## Owned path
+
+- `src/domain/email.ts`
+
+## Required reading
+
+- `GLYPH-RULES.md`
+- `LEGEND.md`
+- `README.md`
+- `docs/SPINE.md`
+- `docs/GLOSSARY.md`
+- `src/domain/email.ts`
+- `tests/email.test.ts` (still uses human import names; harness decodes before final acceptance)
+
+## Forbidden scope
+
+Do not modify tests, package files, documentation, B2/B3 files, `LEGEND.md`, `.glyph/`, or unrelated paths. Do not add dependencies. Do not commit, push, merge, reset, stash, clean, or delete unless the benchmark operator explicitly authorizes it.
+
+## Acceptance criteria
+
+1. After harness decode, `normalizeEmail('  Alice@Example.COM ')` returns `alice@example.com`.
+2. The focused B1 test passes (run by operator after decode if needed).
+3. The fixture typecheck passes after decode.
+4. Only the owned implementation file changes (plus pre-existing Glyph harness artifacts).
+5. The input string remains immutable.
+
+## Verification
+
+You may attempt:
+
+- `pnpm run test:b1`
+- `pnpm run typecheck`
+- `git diff --check`
+
+If tests fail because imports still use human names while the file is Glyph-encoded, that is expected until the operator runs W1 decode. Still make the behavioral fix in the Glyph source and report honestly.
+
+## Handoff
+
+Record model/provider, session ID, attempts, repairs, changed paths, scope drift, commands/results, initial failures, and remaining blockers. Note any Glyph/legend confusion.
